@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 
-// reply to request with "Hello World!"
+// reply to request with "Hello World Docker Automatic build!"
 app.get('/', (req, res) => {
   res.send('Hello World!')
 })
