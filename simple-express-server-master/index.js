@@ -3,7 +3,7 @@ const app = express()
 
 // reply to request with "Hello World Docker Automatic build!"
 app.get('/', (req, res) => {
-  res.send('Hello World Docker Automatic build!')
+  res.send('Hello World!')
 })
 
 // start a server on port 8080
